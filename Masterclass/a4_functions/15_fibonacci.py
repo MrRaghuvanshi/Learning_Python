@@ -4,7 +4,6 @@ def fibonacci():
     while i < int(value):
         j = j + (j + 1)
         i += 1
-
     return j
 
 
