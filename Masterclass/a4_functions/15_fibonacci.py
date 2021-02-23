@@ -1,5 +1,4 @@
-def fibonacci():
-    value = input("enter a number for fibonacci : ")
+def fibonacci(value: int) -> int:
     i = j = 0
     j_minus1 = 1
     while i < int(value):
@@ -10,5 +9,5 @@ def fibonacci():
     return k
 
 
-x = fibonacci()
+x = fibonacci(input("enter a number for fibonacci : "))
 print(x)
